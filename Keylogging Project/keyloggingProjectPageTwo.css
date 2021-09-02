@@ -1,0 +1,152 @@
+#title{
+	margin-top: 7%;
+	text-align: center;
+	position: sticky;
+	font-family: cursive;
+	transition: opacity .5s linear;
+}
+
+#titleHonest{
+	color: red;
+}
+
+#nuclearbutton{
+	background-color: #FA7E61;
+	height: 15%;
+	width: 25%;
+	margin-top: 5%;
+	margin-left: 37.5%;
+	border-radius: 25px;
+	transition: border-radius 5s ease-in-out, background-color 3s ease-in-out, opacity .5s linear;
+}
+
+#launchText{
+	text-align: center;
+	font-size: 20px;
+	position: relative;
+	top: 37%;
+}
+
+.startup{
+	opacity: 100;
+	z-index: 1;
+	/*position: absolute;*/
+}
+
+.test{
+	opacity: 0;
+	z-index: -2;
+	margin-bottom: 200%;
+	transition-delay: 2s;
+	transition: opacity .5s ease;
+}
+
+#testTitle{
+	text-align: center;
+	/*margin-top: -30%;*/
+}
+
+#questions{
+	/*z-index: 2;*/
+	/*margin-top: 0%;*/
+	margin-left: 43%;
+}
+
+#textAreaTest{
+	font-size: 20px;
+	line-height: 20px;
+	/*z-index: 2; */
+	/*margin-top: 20%;*/
+}
+
+textarea{
+	max-width: 25%;
+	max-height: 25%;
+	font-size: 15px;
+}
+
+
+label{
+	font-size: 15px;
+}
+
+#submit{
+	margin-top:-200%;
+	margin-left: 43%;
+}
+
+
+.result{
+	opacity: 100;
+	transition-delay: 5s;
+	transition: opacity 1s ease;
+	/*position: absolute;*/
+	/*margin-top: 500%;*/
+}
+
+#resultTitle{
+	/*margin-top: -273%;*/
+	/*margin-left: 37%;*/
+	text-align: center;
+}
+
+#scary{
+	color: red;
+}
+
+#country{
+	margin-left: 18%;
+	margin-top: 2%;
+	color: #48A9A6;
+}
+#countryResult{
+	color: #48A9A6;
+	margin-left: 21%;
+}
+
+#gender{
+	float:right;
+	margin-top: -6.4%;
+	margin-right: 30%;
+	color: #FFBE0A;
+}
+#genderResult{
+	float: right;
+	margin-top: -3.5%;
+	margin-right: 30%;
+	color: #FFBE0A;
+}
+
+#hobbyG{
+	margin-top: 5%;
+	margin-left: 18%;
+	color: #D64933;
+}
+
+#hobbyResult{
+	margin-left: 21%;
+	color: #D64933;
+}
+
+#age{
+	float:right;
+	margin-top: -6.4%;
+	margin-right: 30%;
+	color: #2B303A;
+}
+#ageResult{
+	float: right;
+	margin-top: -3.5%;
+	margin-right: 30%;
+	color: #2B303A;
+}
+
+
+
+
+
+
+
+
+
+

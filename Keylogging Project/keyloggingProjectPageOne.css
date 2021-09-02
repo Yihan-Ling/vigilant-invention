@@ -1,0 +1,284 @@
+/*FrameOne*/
+#titleDiv{
+	/*position:absolute;*/
+	background-color: orange;
+	width: 18%;
+	height: 5.5%;
+	margin-left: 690px;
+	border-radius: 20px;
+	margin-top: 25%;
+	overflow:hidden;
+  	transition:all 2s ease;
+}
+#titleText{
+	position: absolute;
+	margin-left: 73px;
+	margin-top: 5px;
+}
+.instruction{
+	position: absolute;;
+	font-family: "Chalkduster", fantasy;
+	font-size: 50px;
+}
+#frameOneInstruct{
+	margin-left: 50%;
+	margin-top: -5%;
+	transition:all 2s ease;
+}
+
+/*FrameTwo*/
+
+#frameTwoInstruct{
+	opacity: 0;
+	position:fixed;
+	margin-top: -35%;
+	text-align: center;
+	margin-left: 45%;
+	transition-delay:1s;
+	transition: opacity .5s ease, margin-top .5s ease;
+}
+
+#frameTwoHackerImag{
+	position: fixed;	
+	opacity: 0;
+	margin-top: -70%;
+	margin-left: 18%;
+	transition: opacity 1s ease;
+	transition-delay: 2s;
+}
+
+#frameTwoTypingImag{
+	position: fixed;	
+	opacity: 0;
+	margin-top: -71%;
+	margin-left: 57%;
+	transition: opacity 1s ease;
+	transition-delay: 2s;
+}
+
+#frameTwoSign{
+	position: fixed;
+	opacity: 0;
+	margin-top: -65%;
+	margin-left: 50%;
+	transition: all 1s ease;
+	transition-delay: 2s;
+}
+
+#frameTwoHacker{
+	opacity: 0;
+	position: fixed;
+	margin-left: 25%;
+	margin-top: -43%;
+	transition: opacity .5s ease, margin-top 1s ease;
+	transition-delay: 1.5s;
+}
+
+#frameTwoTyping{
+	opacity: 0;
+	position: fixed;
+	margin-left: 60%;
+	margin-top: -43%;
+	transition: opacity .5s ease, margin-top 1s ease;
+	transition-delay: 1.5s;
+}
+
+/*Frame Three*/
+
+#frameThreeKeyloggingImag{
+	opacity: 0;
+	position: fixed;
+	margin-top: -60%;
+	margin-left: 37%;
+	transition-delay: .8s;
+	transition: all 1s ease;
+}
+
+#frameThreeDefinition{
+	opacity: 0;
+	width: 400px;
+	margin-top: -68%;
+	margin-left: 5%;
+	color: snow;
+	position: fixed;
+	transition: opacity 0.5s ease;
+}
+
+#frameThreeLegal{
+	opacity: 0;
+	width: 400px;
+	margin-top: -60%;
+	margin-left: 5%;
+	color: snow;
+	position: absolute;
+	transition: opacity 0.5s ease;
+}
+
+#frameThreeMicro{
+	opacity: 0;
+	width: 400px;
+	margin-top: -53%;
+	margin-left: 5%;
+	color: snow;
+	position: absolute;
+	z-index: 1;
+	transition: opacity 0.5s ease;
+}
+
+
+#frameThreeOverview{
+	opacity: 0;
+	/*position: fixed;*/
+	margin-top: -72%;
+	margin-left: 5%;
+	color: #5BC0BE;
+	transition: opacity 0.5s ease;
+}
+
+#frameThreeKeylogging{
+	/*position: fixed;*/
+	opacity: 0;
+	color: snow;
+	/*margin-left: 51%;*/
+	margin-left: 60%;
+	margin-top: -75%;
+	transition:opacity 0.5s ease, margin-left, 1s ease;
+}
+
+#frameThreeDangerous{
+	opacity: 0;
+	/*position: fixed;*/
+	margin-top: -55%;
+	margin-left: 67%;
+	color: #E4572E;
+	transition: opacity 0.5s ease, margin-top 1.5s ease;
+}
+
+#frameThreeHTTPS{
+	opacity: 0;
+	width: 400px;
+	margin-top: -5%;
+	margin-left: 66.5%;
+	color: snow;
+	/*position: absolute;*/
+	transition: opacity 0.5s ease;
+}
+
+#frameThreeUpdate{
+	opacity: 0;
+	width: 400px;
+	margin-top: 6%;
+	margin-left: 66.5%;
+	color: snow;
+	/*position: absolute;*/
+	transition: opacity 0.5s ease;
+}
+
+#frameThreeLight{
+	opacity: 0;
+	width: 400px;
+	margin-top: 12.5%;
+	margin-left: 67%;
+	color: snow;
+	/*position: absolute;*/
+	transition: opacity 0.5s ease;
+}
+
+body{
+	transition: background-color 1.5s ease;
+}
+
+
+/*Frame Four*/
+
+
+#frameFourDetect{
+	opacity: 0;
+	margin-top: -40%;
+	margin-left: 10%;
+
+	transition: all 1s ease;
+}
+
+#frameFourDetectP{
+	opacity: 0;
+	margin-top: 10%;
+	margin-left: 10%;
+	width: 20%;
+
+	transition: all 1s ease;
+}
+
+#frameFourDetectImg{
+	opacity: 0;
+	margin-top: 0%;
+	margin-left: 10%;
+	width: 20%;
+	height: 35%;
+
+	transition: all 1s ease;
+}
+
+#frameFourDestory{
+	opacity: 0;
+	margin-top: -10%;
+	margin-left: 55%;
+
+	transition: all 1s ease;
+}
+
+#frameFourSmash{
+	opacity: 0;
+	margin-top: -20%;
+	margin-left: 70%;
+
+	transition: all 1s ease;
+}
+
+#frameFourDestoryImg{
+	opacity: 0;
+	margin-top: -25%;
+	margin-left: 55%;
+	width: 38%;
+	height: 35%;
+
+	transition: all 1s ease;
+}
+
+#frameFourDestoryList{
+	opacity: 0;
+	/*margin-top: -27%;*/
+	margin-left: 55%;
+	width: 40%;
+	
+
+	transition: all 1s ease;
+}
+
+#frameFourAvoid{
+	opacity: 0;
+	margin-top: 10%;
+	margin-left: -40%;
+
+	transition: all 1s ease;
+}
+
+#frameFourAvoidLi{
+	opacity: 0;
+	/*margin-top: -27%;*/
+	margin-left: -20%;
+	position: absolute;
+	width: 50%;
+
+	transition: all 1s ease;
+}
+
+#pageTwoLink{
+	position: absolute;
+	margin-top: -14%;
+	margin-left: -25%;
+}
+
+
+
+

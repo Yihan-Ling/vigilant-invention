@@ -1,0 +1,130 @@
+<html>
+	<head>
+		<title>User Persona</title>
+		<link rel="stylesheet" type="text/css" href="keyloggingProjectPageTwo.css">
+	</head>
+	<body>
+
+		<h1 id="title" class="startup">Just a short Quiz, nothing scary.<br>
+			But please answer them <b id="titleHonest">Honestly!!!</b>
+			<br>
+			Just for the best results, but you don't have to worry about it now.
+			<br>Just for now... 
+		</h1>
+
+		<div class="startup" id="nuclearButton" onmouseover="ArmNuclear(this)" onmouseout="DisarmNuclear(this)" onclick="boom()">
+			<p id="launchText" >When you are ready, click here to lauch Quiz</p>
+		</div>
+
+
+		<h1 id="testTitle" class="test">
+			Here is your quiz!!!
+			<br>
+			All of your answers will be recorded.
+		</h1>
+
+		<!-- action="keyloggingProjectPageThree.html" onsubmit="analyze()"-->
+
+		<form class="test" id="questions"> 
+				
+			<label for="fname">First name:</label><br>
+			<input type="text" id="fname" name="fname"><br><br>
+				
+			<label for="lname">Last name:</label><br>
+			<input type="text" id="lname" name="lname"><br><br>
+				
+			<label for="hobby">What would you like to do in your free time (answer in complete sentence, please):</label><br>
+			<textarea type="text" id="hobby" name="hobby"></textarea><br><br>
+				
+			<label for="friend">Describe your best friend:</label><br>
+			<textarea type="text" id="friend" name="friend"></textarea><br><br>
+				
+			<!-- <label for="yesterday">How did your spend your day yesterday:</label><br>
+			<textarea type="text" id="yesterday" name="yesterday"></textarea><br><br>
+ -->
+			<p><b>Who did you meet or speak to in the past year:</b></p>
+			<input type="checkbox" id="social1" name="social1" value="friend">
+			<label for="social1">My Friend</label><br><br>
+			
+			<input type="checkbox" id="social2" name="social2" value="parents">
+			<label for="social2">My Parent</label><br><br>
+
+			<input type="checkbox" id="social3" name="social3" value="worker">
+			<label for="social3">My Co-worker</label><br><br>
+
+			<input type="checkbox" id="social4" name="social4" value="classmate">
+			<label for="social4">My Classmate</label><br><br>
+
+			<p><b>Marital Status:</b></p>
+			<input type="radio" id="married" name="marriage" value="married">
+			<label for="married">I am married</label><br><br>
+
+			<input type="radio" id="engaged" name="marriage" value="engaged">
+			<label for="engaged">I am engaged</label><br><br>
+
+			<input type="radio" id="divorced" name="marriage" value="divorced">
+			<label for="divorced">I am divorse or widowed</label><br><br>
+
+			<input type="radio" id="love" name="marriage" value="love">
+			<label for="love">I have a girlfriend/boyfriend</label><br><br>
+
+			<input type="radio" id="single" name="marriage" value="single">
+			<label for="single">I am single</label><br><br><br>
+
+			<!-- <label for="thursday">How would you spend your typical Thursday:</label><br>
+			<textarea type="text" id="thursday" name="thursday"></textarea><br><br> -->
+
+			<p><b>How many times have you traveled to another country:</b></p>
+			<input type="radio" id="0" name="travel" value="0">
+			<label for="0">0 times</label><br><br>
+
+			<input type="radio" id="1-2" name="travel" value="1-2">
+			<label for="1-2">1-2 times</label><br><br>
+
+			<input type="radio" id="3-5" name="travel" value="3-5">
+			<label for="3-5">3-5 times</label><br><br>
+
+			<input type="radio" id="6-10" name="travel" value="6-10">
+			<label for="6-10">6-10 times</label><br><br>
+
+			<input type="radio" id="11" name="travel" value="10more">
+			<label for="11">more than 10 times</label><br><br>
+
+			<p><b>Do you travel mostly for business or leisure:</b></p>
+			<input type="radio" id="forBusiness" name="travelPur" value="business">
+			<label for="forBusiness">Business</label><br><br>
+
+			<input type="radio" id="forLeisure" name="travelPur" value="leisure">
+			<label for="forLeisure">Leisure</label><br><br>
+
+		</form>
+
+		<button class="test" id="submit" onclick="analyze()">submit</button>
+
+		<h1 class="result" id="resultTitle">
+			Here is your result!<br>
+			See if they are correct!<br><br>
+			If they are, then you should be careful about all the information you enter on the internet. <br>
+			Because anyone can analyze you base on these simple and indirect questions that seems no harm.<br><br>
+			<i id="scary">Scary???</i>
+		</h1>
+
+		<h2 class="result" id="country">Your Country of Residence or Ancestry:</h2>
+		<h1 class="result" id="countryResult"></h1>
+
+		<h2 class="result" id="gender">Your Gender:</h2>
+		<h1 class="result" id="genderResult"></h1>
+
+		<h2 class="result" id="hobbyG">Your Hobby:</h2>
+		<h1 class="result" id="hobbyResult"></h1>
+
+		<h2 class="result" id="age">Your Age Range:</h2>
+		<h1 class="result" id="ageResult"></h1>
+
+
+
+
+		<script src="keyloggingProjectPageTwo.js"></script>
+	</body>
+</html>
+

@@ -1,0 +1,37 @@
+.gridCell{
+	width: 225px;
+	height: 225px;
+	border: 1px solid black;
+	float: left;
+}
+#rowOne{
+	width: 690px;
+	height: 225px;
+}
+#rowTwo{
+	width: 690px;
+	height: 225px;
+}
+#rowThree{
+	width: 690px;
+	height: 225px;
+}
+
+.sym{
+	font-size: 150px;
+	margin-top: 10px;
+	margin-left: 70px;
+}
+
+#restartButton{
+	width: 100px;
+	height:50px;
+}
+
+#switchButton{
+	width: 200px;
+	height:50px;
+	margin-left: 375px;
+	margin-top: -25px;
+	/*float: left;*/
+}

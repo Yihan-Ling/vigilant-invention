@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="TicTacToe.css">
+</head>
+<body>
+
+	<h1>You Win!!!!</h1>
+	<p id="xWin"> hello</p>
+	<p id="oWin"> hello2</p>
+
+	<div id="rowOne">
+			<div class="gridCell" onclick="action(0,0)">
+				<p class="sym" id="0"></p>
+			</div>
+			<div class="gridCell" onclick="action(0,1)">
+				<p class="sym" id="1"></p>
+			</div>
+			<div class="gridCell" onclick="action(0,2)">
+				<p class="sym" id="2"></p>
+			</div>
+	</div>
+
+	<div id="rowTwo">
+			<div class="gridCell" onclick="action(1,0)">
+				<p class="sym" id="3"></p>
+			</div><div class="gridCell" onclick="action(1,1)">
+				<p class="sym" id="4"></p>
+			</div><div class="gridCell" onclick="action(1,2)">
+				<p class="sym" id="5"></p>
+			</div>
+	</div>
+
+	<div id="rowThree">
+			<div class="gridCell" onclick="action(2,0)">
+				<p class="sym" id="6"></p>
+			</div>
+			<div class="gridCell" onclick="action(2,1)">
+				<p class="sym" id="7"></p>
+			</div>
+			<div class="gridCell" onclick="action(2,2)">
+				<p class="sym" id="8"></p>
+			</div>
+	</div><br>
+
+	<button onclick="restart()" id="restartButton">Restart</button>
+
+
+	<button onclick="switchOpp()" id="switchButton">Switch to Computer Opponent</button>
+
+
+	<script src="TicTacToe.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+.blue{
+  background-color:#042863;
+  width:600px;
+  height:360px;
+  float:left;
+}
+.star{
+  width:55px;
+  height:55px;
+  margin-left:40px;
+}
+.starsix{
+  margin-left:-20px;
+  margin-bottom:-23px;
+}
+.starfive{
+  margin-left:35px;
+  margin-bottom:-23px;
+}
+.sred{
+  background-color:#B8000D;
+  width:750px;
+  height:51.4px;
+  float:left;
+}
+.swhite{
+  background-color:snow;
+  width:750px;
+  height:51.4px;
+  float:left;
+}
+.lred{
+  background-color:#B8000D;
+  width:1350px;
+  height:51.4px;
+  float:right;
+}
+.lwhite{
+  background-color:snow;
+  width:1350px;
+  height:51.4px;
+  float:right;
+}

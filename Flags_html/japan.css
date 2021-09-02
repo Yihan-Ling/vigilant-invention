@@ -1,0 +1,9 @@
+div{
+  background-color:red;
+  max-width:500px;
+  max-height:500px;
+  width:350px;
+  height:350px;
+  margin:36%;
+  border-radius:50%;
+}

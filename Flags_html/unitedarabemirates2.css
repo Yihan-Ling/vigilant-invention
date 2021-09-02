@@ -1,0 +1,33 @@
+.red{
+  background-color:#FF1212;
+  max-width:5000px;
+  max-height:5000px;
+  width:360px;
+  height:660px;
+  float:left;
+}
+.green{
+  background-color:#005B00;
+  max-width:5000px;
+  max-height:500px;
+  width:990px;
+  height:220px;
+  float:left;
+}
+.white{
+  background-color:snow;
+  max-width:5000px;
+  max-height:500px;
+  width:990px;
+  height:220px;
+  float:left;
+}
+.black{
+  background-color:black;
+  max-width:5000px;
+  max-height:500px;
+  width:990px;
+  height:220px;
+  float:left;
+}
+

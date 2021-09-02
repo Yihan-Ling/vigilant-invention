@@ -1,0 +1,17 @@
+.blue{
+  background-color:blue;
+  max-width:500px;
+  max-height:1000px;
+  width:450px;
+  height:700px;
+  float:left;
+}
+
+.red{
+  background-color:red;
+  max-width:500px;
+  max-height:1000px;
+  width:450px;
+  height:700px;
+  float:right;
+}

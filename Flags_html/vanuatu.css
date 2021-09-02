@@ -1,0 +1,64 @@
+.red{
+  background-color:red;
+  width:1350px;
+  height:330px;
+  float:left;
+  }
+.green{
+  background-color:green;
+  width:1350px;
+  height:330px;
+  float:left;
+  margin-top:80px;
+  }
+img{
+  width:200px;
+  height:200px;
+  /*margin-top:240px;*/
+  /*margin-left:40px;*/
+  margin-top:-90px;
+  margin-left:-500px;
+  }
+.trai{
+  float:left;
+  width: 0;
+  height: 0;
+  border-top: 370px solid transparent;
+  border-bottom: 370px solid transparent;
+  border-left: 603px solid black;
+  margin-top:-740px;
+}
+.blackl{
+  background-color:black;
+  width:1000px;
+  height:80px;
+  position:absolute;
+  margin-top:330px;
+  margin-left:350px;
+}
+.yellowl{
+  background-color:yellow;
+  width:820px;
+  height:27px;
+  position:absolute;
+  margin-top:357px;
+  margin-left:530px;
+}
+.yellowo{
+  background-color:yellow;
+  width:530px;
+  height:27px;
+  position:absolute;
+  margin-top:192px;
+  /*margin-left:10px;*/
+  transform:skewy(32deg);
+}
+.yellowt{
+  background-color:yellow;
+  width:530px;
+  height:27px;
+  position:absolute;
+  margin-top:522px;
+  /*margin-left:10px;*/
+  transform:skewy(-32deg);
+}

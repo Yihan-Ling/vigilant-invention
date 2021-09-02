@@ -1,0 +1,184 @@
+<html>
+<head>
+	<title>Master Mind</title>
+	<link rel="stylesheet" type="text/css" href="MatserMind.css">
+</head>
+<body>
+
+	<h1 id="winTag">You win!</h1>
+	<h1 id="loseTag">You lost!</h1>
+
+	<button id="one" class="Color" onclick="guess(1)"><b>1</b></button>
+	<button id="two" class="Color" onclick="guess(2)"><b>2</b></button>
+	<button id="three" class="Color" onclick="guess(3)"><b>3</b></button>
+	<button id="four" class="Color" onclick="guess(4)"><b>4</b></button>
+	<button id="five" class="Color" onclick="guess(5)"><b>5</b></button>
+	<button id="six" class="Color" onclick="guess(6)"><b>6</b></button>
+
+	<button id="checkButton" onclick="check()">Check</button>
+	<button id="deleteButton" onclick="Delete()">Delete</button>
+	<button id="restartButton" onclick="reset()">Restart</button>
+
+	<div id="indicator"> </div>
+
+	<div id="row1" class="row">
+
+		<div class="cell"><div id="1" class="cell pin"></div></div>
+		<div class="cell"><div id="2" class="cell pin"></div></div>
+		<div class="cell"><div id="3" class="cell pin"></div></div>
+		<div class="cell"><div id="4" class="cell pin"></div></div>
+
+		<!-- <div id="show1" class="showRow"> -->
+			<div class="scell"><div id="s4" class="scell spin"></div></div>
+			<div class="scell"><div id="s3" class="scell spin"></div></div>
+			<div class="scell"><div id="s2" class="scell spin"></div></div>
+			<div class="scell"><div id="s1" class="scell spin"></div></div>
+		<!-- </div> -->
+	</div>
+
+	<div id="row2" class="row">
+		<div class="cell"><div id="5" class="cell pin"></div></div>
+		<div class="cell"><div id="6" class="cell pin"></div></div>
+		<div class="cell"><div id="7" class="cell pin"></div></div>
+		<div class="cell"><div id="8" class="cell pin"></div></div>
+
+		<!-- <div id="show2" class="showRow"> -->
+			<div class="scell"><div id="s8" class="scell spin"></div></div>
+			<div class="scell"><div id="s7" class="scell spin"></div></div>
+			<div class="scell"><div id="s6" class="scell spin"></div></div>
+			<div class="scell"><div id="s5" class="scell spin"></div></div>
+		<!-- </div> -->
+
+	</div>
+
+	<div id="row3" class="row">
+		<div class="cell"><div id="9" class="cell pin"></div></div>
+		<div class="cell"><div id="10" class="cell pin"></div></div>
+		<div class="cell"><div id="11" class="cell pin"></div></div>
+		<div class="cell"><div id="12" class="cell pin"></div></div>
+
+		<!-- <div id="show3" class="showRow"> -->
+			<div class="scell"><div id="s12" class="scell spin"></div></div>
+			<div class="scell"><div id="s11" class="scell spin"></div></div>
+			<div class="scell"><div id="s10" class="scell spin"></div></div>
+			<div class="scell"><div id="s9" class="scell spin"></div></div>
+		<!-- </div> --></div>
+
+	</div>
+	<div id="row4" class="row">
+		<div class="cell"><div id="13" class="cell pin"></div></div>
+		<div class="cell"><div id="14" class="cell pin"></div></div>
+		<div class="cell"><div id="15" class="cell pin"></div></div>
+		<div class="cell"><div id="16" class="cell pin"></div></div>
+
+		<!-- <div id="show4" class="showRow"> -->
+			<div class="scell"><div id="s16" class="scell spin"></div></div>
+			<div class="scell"><div id="s15" class="scell spin"></div></div>
+			<div class="scell"><div id="s14" class="scell spin"></div></div>
+			<div class="scell"><div id="s13" class="scell spin"></div></div>
+		<!-- </div> -->
+
+	</div>
+	<div id="row5" class="row">
+		<div class="cell"><div id="17" class="cell pin"></div></div>
+		<div class="cell"><div id="18" class="cell pin"></div></div>
+		<div class="cell"><div id="19" class="cell pin"></div></div>
+		<div class="cell"><div id="20" class="cell pin"></div></div>
+
+		<!-- <div id="show5" class="showRow"> -->
+			<div class="scell"><div id="s20" class="scell spin"></div></div>
+			<div class="scell"><div id="s19" class="scell spin"></div></div>
+			<div class="scell"><div id="s18" class="scell spin"></div></div>
+			<div class="scell"><div id="s17" class="scell spin"></div></div>
+		<!-- </div> -->
+
+	</div></div>
+	<div id="row6" class="row">
+		<div class="cell"><div id="21" class="cell pin"></div></div>
+		<div class="cell"><div id="22" class="cell pin"></div></div>
+		<div class="cell"><div id="23" class="cell pin"></div></div>
+		<div class="cell"><div id="24" class="cell pin"></div></div>
+
+
+		<!-- <div id="show6" class="showRow"> -->
+			<div class="scell"><div id="s24" class="scell spin"></div></div>
+			<div class="scell"><div id="s23" class="scell spin"></div></div>
+			<div class="scell"><div id="s22" class="scell spin"></div></div>
+			<div class="scell"><div id="s21" class="scell spin"></div></div>
+		<!-- </div> -->
+	</div>
+	<div id="row7" class="row">
+		<div class="cell"><div id="25" class="cell pin"></div></div>
+		<div class="cell"><div id="26" class="cell pin"></div></div>
+		<div class="cell"><div id="27" class="cell pin"></div></div>
+		<div class="cell"><div id="28" class="cell pin"></div></div>
+
+		<!-- <div id="show7" class="showRow"> -->
+			<div class="scell"><div id="s28" class="scell spin"></div></div>
+			<div class="scell"><div id="s27" class="scell spin"></div></div>
+			<div class="scell"><div id="s26" class="scell spin"></div></div>
+			<div class="scell"><div id="s25" class="scell spin"></div></div>
+
+		<!-- </div> -->
+
+	</div>
+
+	<div id="row8" class="row">
+		<div class="cell"><div id="29" class="cell pin"></div></div>
+		<div class="cell"><div id="30" class="cell pin"></div></div>
+		<div class="cell"><div id="31" class="cell pin"></div></div>
+		<div class="cell"><div id="32" class="cell pin"></div></div>
+
+
+		<!-- <div id="show8" class="showRow"> -->
+			<div class="scell"><div id="s32" class="scell spin"></div></div>
+			<div class="scell"><div id="s31" class="scell spin"></div></div>
+			<div class="scell"><div id="s30" class="scell spin"></div></div>
+			<div class="scell"><div id="s29" class="scell spin"></div></div>
+		<!-- </div> -->
+	</div>
+
+	<div id="row9" class="row">
+		<div class="cell"><div id="33" class="cell pin"></div></div>
+		<div class="cell"><div id="34" class="cell pin"></div></div>
+		<div class="cell"><div id="35" class="cell pin"></div></div>
+		<div class="cell"><div id="36" class="cell pin"></div></div>
+
+		<!-- <div id="show9" class="showRow"> -->
+			<div class="scell"><div id="s36" class="scell spin"></div></div>
+			<div class="scell"><div id="s35" class="scell spin"></div></div>
+			<div class="scell"><div id="s34" class="scell spin"></div></div>
+			<div class="scell"><div id="s33" class="scell spin"></div></div>
+		<!-- </div> -->
+	</div>
+
+	<div id="row10" class="row">
+		<div class="cell"><div id="37" class="cell pin"></div></div>
+		<div class="cell"><div id="38" class="cell pin"></div></div>
+		<div class="cell"><div id="39" class="cell pin"></div></div>
+		<div class="cell"><div id="40" class="cell pin"></div></div>
+
+		<!-- <div id="show10" class="showRow"> -->
+			<div class="scell"><div id="s40" class="scell spin"></div></div>
+			<div class="scell"><div id="s39" class="scell spin"></div></div>
+			<div class="scell"><div id="s38" class="scell spin"></div></div>
+			<div class="scell"><div id="s37" class="scell spin"></div></div>
+		<!-- </div> -->
+		
+	
+	</div>
+	
+	<div id="answerRow" class="row">
+		<div class="cell"><div id="a1" class="cell pin"></div></div>
+		<div class="cell"><div id="a2" class="cell pin"></div></div>
+		<div class="cell"><div id="a3" class="cell pin"></div></div>
+		<div class="cell"><div id="a4" class="cell pin"></div></div>
+	</div>
+
+
+
+	
+
+	<script src="MatserMind.js"></script>
+</body>
+</html>

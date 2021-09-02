@@ -1,0 +1,118 @@
+.cell{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	float: left;
+	background-color: #786452;
+}
+.pin{
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	margin: 20px;
+	background-color: snow;
+}
+.row{
+	width: 670px;
+	height: 100px;
+	/*background-color: blue;*/
+	margin-bottom: 10px;
+}
+
+#answerRow{
+	margin-top: 50px;
+}
+#checkButton{
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	margin-left: 800px;
+	margin-top: 150px;
+}
+#deleteButton{
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	margin-left: 910px;
+	margin-top: 150px;
+}
+#restartButton{
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	margin-left: 850px;
+	margin-top: 210px;
+}
+.scell{
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	float: right;
+	background-color: #6F9CEB;
+}
+
+.spin{
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+	background-color: #C7C7A6;
+}
+
+.Color{
+	margin-left: 800px;
+	margin-top: 75px;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	/*border-radius: 50%;*/
+}
+
+#indicator{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: blue;
+	margin-left: 700px;
+	margin-top: 15px;
+	position: absolute;
+
+}
+
+#one{
+	background-color: #88CCF1;
+}
+#two{
+	background-color: #8CBA80;
+	margin-left: 835px;
+}
+#three{
+	background-color: #EE8434;
+	margin-left: 870px;
+}
+#four{
+	background-color: #6F58C9;
+	margin-left: 905px;
+}
+#five{
+	background-color: #A63A50;
+	margin-left: 940px;
+}
+#six{
+	background-color: #FFEF9F;
+	margin-left: 975px;
+}
+
+#winTag{
+	font-size: 100px;
+	position: absolute;
+	margin: 300px;
+	color: red;
+}
+
+#loseTag{
+	font-size: 100px;
+	position: absolute;
+	margin: 300px;
+	color: red;
+}
